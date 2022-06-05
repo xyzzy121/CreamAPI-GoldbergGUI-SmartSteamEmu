@@ -1,0 +1,14 @@
+2022-05-04 09:25:56.669 -04:00 [INF] Updating cache...
+2022-05-04 09:25:56.925 -04:00 [INF] Getting content from API...
+2022-05-04 09:25:58.428 -04:00 [DBG] CreamDllService: Initialize begin
+2022-05-04 09:25:59.806 -04:00 [DBG] CreamDllService: Initialize end
+2022-05-04 09:26:11.256 -04:00 [INF] Got content from API successfully. Writing to file...
+2022-05-04 09:26:12.973 -04:00 [INF] Cache written to file successfully.
+2022-05-04 09:26:17.329 -04:00 [INF] Loaded cache into memory!
+2022-05-04 09:26:17.588 -04:00 [DBG] ListOfDLcToStringConverter: Convert
+2022-05-04 11:54:59.273 -04:00 [INF] Updating cache...
+2022-05-04 11:54:59.433 -04:00 [INF] Cache already up to date!
+2022-05-04 11:55:04.109 -04:00 [INF] Loaded cache into memory!
+2022-05-04 11:55:04.116 -04:00 [DBG] CreamDllService: Initialize begin
+2022-05-04 11:55:05.060 -04:00 [DBG] CreamDllService: Initialize end
+2022-05-04 11:55:07.829 -04:00 [DBG] ListOfDLcToStringConverter: Convert

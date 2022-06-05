@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MasterServerAddress>
+    <string>188.40.40.201:27010</string>
+  </MasterServerAddress>
+  <BroadcastAddress>
+    <string>255.255.255.255</string>
+  </BroadcastAddress>
+  <BanList />
+  <SortBy>SortByName</SortBy>
+  <GroupBy>GroupByNone</GroupBy>
+  <WindowSizeX>339</WindowSizeX>
+  <WindowSizeY>453</WindowSizeY>
+  <WindowPosX>26</WindowPosX>
+  <WindowPosY>26</WindowPosY>
+  <HideMissingShortcut>false</HideMissingShortcut>
+  <HideToTray>false</HideToTray>
+  <ParanoidMode>false</ParanoidMode>
+  <AvatarPath>avatar.png</AvatarPath>
+  <PersonaName>AccountName</PersonaName>
+  <SteamIdGeneration>Static</SteamIdGeneration>
+  <ManualSteamId>0</ManualSteamId>
+  <Language>English</Language>
+  <LowViolence>false</LowViolence>
+  <StorageOnAppdata>true</StorageOnAppdata>
+  <SeparateStorageByName>false</SeparateStorageByName>
+  <AutomaticallyJoinInvite>true</AutomaticallyJoinInvite>
+  <EnableHTTP>false</EnableHTTP>
+  <EnableInGameVoice>false</EnableInGameVoice>
+  <EnableLobbyFilter>true</EnableLobbyFilter>
+  <DisableFriendList>false</DisableFriendList>
+  <DisableLeaderboard>false</DisableLeaderboard>
+  <SecuredServer>true</SecuredServer>
+  <EnableVR>false</EnableVR>
+  <Offline>false</Offline>
+  <QuickJoinHotkey>SHIFT + TAB</QuickJoinHotkey>
+  <EnableLog>false</EnableLog>
+  <MarkLogHotkey>CTRL + ALT + M</MarkLogHotkey>
+  <LogFilter>User Logged On</LogFilter>
+  <Minidump>true</Minidump>
+  <ListenPort>31313</ListenPort>
+  <MaximumPort>10</MaximumPort>
+  <DiscoveryInterval>3</DiscoveryInterval>
+  <MaximumConnection>200</MaximumConnection>
+  <AllowAnyoneConnect>true</AllowAnyoneConnect>
+  <AdminPass />
+  <EnableOverlay>true</EnableOverlay>
+  <EnableOnlinePlay>true</EnableOnlinePlay>
+  <OverlayLanguage />
+  <OverlayScreenshotHotkey>F12</OverlayScreenshotHotkey>
+</Config>

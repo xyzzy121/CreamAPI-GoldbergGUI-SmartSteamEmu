@@ -1,0 +1,570 @@
+2022-06-05 10:22:47.511 -04:00 [ERR] Invalid Steam App!
+2022-06-05 10:22:50.836 -04:00 [INF] Updating cache (game)...
+2022-06-05 10:22:55.144 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 10:22:55.193 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 10:22:55.197 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 10:22:55.198 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 10:23:17.724 -04:00 [INF] Updating cache (dlc)...
+2022-06-05 10:23:28.519 -04:00 [INF] Initializing download...
+2022-06-05 10:23:29.177 -04:00 [INF] Check if update is needed...
+2022-06-05 10:23:29.183 -04:00 [ERR] An error occured, local Goldberg setup might be broken!
+2022-06-05 10:23:29.185 -04:00 [INF] Starting download...
+2022-06-05 10:23:29.192 -04:00 [DBG] https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/jobs/2547204351/artifacts/download
+2022-06-05 10:23:36.635 -04:00 [INF] Download finished!
+2022-06-05 10:23:36.659 -04:00 [DBG] Start extraction...
+2022-06-05 10:23:45.614 -04:00 [INF] Extraction was successful!
+2022-06-05 10:23:45.626 -04:00 [INF] Getting global settings...
+2022-06-05 10:23:45.731 -04:00 [INF] Got global settings.
+2022-06-05 11:50:14.952 -04:00 [INF] Reading configuration...
+2022-06-05 11:50:14.969 -04:00 [INF] "steam_appid.txt" missing! Skipping...
+2022-06-05 11:50:14.978 -04:00 [INF] "steam_settings/achievements.json" missing! Skipping...
+2022-06-05 11:50:14.978 -04:00 [INF] "steam_settings/DLC.txt" missing! Skipping...
+2022-06-05 11:50:14.997 -04:00 [ERR] Invalid Steam App!
+2022-06-05 11:50:15.021 -04:00 [DBG] Goldberg applied? False
+2022-06-05 11:50:15.031 -04:00 [ERR] Invalid Steam App!
+2022-06-05 11:50:30.336 -04:00 [INF] Trying to get app cruelty
+2022-06-05 11:50:32.341 -04:00 [INF] Trying to get app with ID 1388770
+2022-06-05 11:50:32.353 -04:00 [INF] Successfully got app 1388770=Cruelty Squad
+2022-06-05 11:50:32.514 -04:00 [INF] Get DLC for App 1388770=Cruelty Squad
+2022-06-05 11:50:34.164 -04:00 [INF] Got DLC successfully...
+2022-06-05 11:50:34.166 -04:00 [INF] Get SteamDB App 1388770=Cruelty Squad
+2022-06-05 11:50:34.166 -04:00 [DBG] 1540870=Unknown DLC 1540870
+2022-06-05 11:50:34.451 -04:00 [DBG] RanToCompletion
+2022-06-05 11:50:34.457 -04:00 [ERR] Could not get DLC from SteamDB! Skipping...
+2022-06-05 11:50:34.961 -04:00 [ERR] System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GoldbergGUI.Core.Services.SteamService.GetListOfDlc(SteamApp steamApp, Boolean useSteamDb)
+2022-06-05 11:50:48.387 -04:00 [INF] Trying to get app Cruelty Squad
+2022-06-05 11:50:52.813 -04:00 [INF] Successfully got app 1388770=Cruelty Squad
+2022-06-05 11:50:52.816 -04:00 [INF] Trying to get app with ID 1388770
+2022-06-05 11:50:52.817 -04:00 [INF] Get DLC for App 1388770=Cruelty Squad
+2022-06-05 11:50:52.819 -04:00 [INF] Successfully got app 1388770=Cruelty Squad
+2022-06-05 11:50:53.147 -04:00 [INF] Got DLC successfully...
+2022-06-05 11:50:53.148 -04:00 [INF] Get SteamDB App 1388770=Cruelty Squad
+2022-06-05 11:50:53.157 -04:00 [DBG] 1540870=Unknown DLC 1540870
+2022-06-05 11:50:53.286 -04:00 [DBG] RanToCompletion
+2022-06-05 11:50:53.287 -04:00 [ERR] Could not get DLC from SteamDB! Skipping...
+2022-06-05 11:50:53.287 -04:00 [ERR] System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GoldbergGUI.Core.Services.SteamService.GetListOfDlc(SteamApp steamApp, Boolean useSteamDb)
+2022-06-05 11:50:58.051 -04:00 [INF] Get DLC for App 1388770=Cruelty Squad
+2022-06-05 11:50:58.460 -04:00 [INF] Got DLC successfully...
+2022-06-05 11:50:58.461 -04:00 [INF] Get SteamDB App 1388770=Cruelty Squad
+2022-06-05 11:50:58.463 -04:00 [DBG] 1540870=Unknown DLC 1540870
+2022-06-05 11:50:58.616 -04:00 [DBG] RanToCompletion
+2022-06-05 11:50:58.616 -04:00 [ERR] Could not get DLC from SteamDB! Skipping...
+2022-06-05 11:50:58.617 -04:00 [ERR] System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GoldbergGUI.Core.Services.SteamService.GetListOfDlc(SteamApp steamApp, Boolean useSteamDb)
+2022-06-05 11:51:02.132 -04:00 [INF] Trying to get app Cruelty Squad
+2022-06-05 11:51:03.093 -04:00 [INF] Successfully got app 1388770=Cruelty Squad
+2022-06-05 11:51:03.095 -04:00 [INF] Trying to get app with ID 1388770
+2022-06-05 11:51:03.095 -04:00 [INF] Get DLC for App 1388770=Cruelty Squad
+2022-06-05 11:51:03.104 -04:00 [INF] Successfully got app 1388770=Cruelty Squad
+2022-06-05 11:51:03.413 -04:00 [INF] Got DLC successfully...
+2022-06-05 11:51:03.414 -04:00 [INF] Get SteamDB App 1388770=Cruelty Squad
+2022-06-05 11:51:03.414 -04:00 [DBG] 1540870=Unknown DLC 1540870
+2022-06-05 11:51:03.536 -04:00 [DBG] RanToCompletion
+2022-06-05 11:51:03.536 -04:00 [ERR] Could not get DLC from SteamDB! Skipping...
+2022-06-05 11:51:03.537 -04:00 [ERR] System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GoldbergGUI.Core.Services.SteamService.GetListOfDlc(SteamApp steamApp, Boolean useSteamDb)
+2022-06-05 11:51:06.517 -04:00 [INF] Getting achievements for App 1388770=Cruelty Squad
+2022-06-05 11:51:07.597 -04:00 [ERR] MvxAsyncCommand : exception executing task : 
+2022-06-05 11:52:08.464 -04:00 [ERR] Invalid Steam App!
+2022-06-05 11:52:11.953 -04:00 [INF] Initializing download...
+2022-06-05 11:52:13.762 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 11:52:13.776 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 11:52:13.781 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 11:52:13.782 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 11:52:15.228 -04:00 [INF] Check if update is needed...
+2022-06-05 11:52:15.257 -04:00 [ERR] An error occured, local Goldberg setup might be broken!
+2022-06-05 11:52:15.257 -04:00 [INF] Starting download...
+2022-06-05 11:52:15.260 -04:00 [DBG] https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/jobs/2547204351/artifacts/download
+2022-06-05 11:52:23.664 -04:00 [INF] Download finished!
+2022-06-05 11:52:23.681 -04:00 [DBG] Start extraction...
+2022-06-05 11:52:32.617 -04:00 [INF] Extraction was successful!
+2022-06-05 11:52:32.623 -04:00 [INF] Getting global settings...
+2022-06-05 11:52:32.661 -04:00 [INF] Got global settings.
+2022-06-05 11:52:49.749 -04:00 [INF] Reading configuration...
+2022-06-05 11:52:49.750 -04:00 [INF] "steam_appid.txt" missing! Skipping...
+2022-06-05 11:52:49.756 -04:00 [INF] "steam_settings/achievements.json" missing! Skipping...
+2022-06-05 11:52:49.756 -04:00 [INF] "steam_settings/DLC.txt" missing! Skipping...
+2022-06-05 11:52:49.758 -04:00 [ERR] Invalid Steam App!
+2022-06-05 11:52:49.762 -04:00 [DBG] Goldberg applied? False
+2022-06-05 11:52:49.765 -04:00 [ERR] Invalid Steam App!
+2022-06-05 11:53:00.131 -04:00 [INF] Trying to get app cruelty
+2022-06-05 11:53:11.875 -04:00 [INF] Trying to get app with ID 1388770
+2022-06-05 11:53:12.047 -04:00 [INF] Successfully got app 1388770=Cruelty Squad
+2022-06-05 11:53:12.331 -04:00 [INF] Get DLC for App 1388770=Cruelty Squad
+2022-06-05 11:53:13.907 -04:00 [INF] Got DLC successfully...
+2022-06-05 11:53:13.908 -04:00 [DBG] 1540870=Unknown DLC 1540870
+2022-06-05 11:53:13.915 -04:00 [INF] Get SteamDB App 1388770=Cruelty Squad
+2022-06-05 11:53:14.102 -04:00 [DBG] RanToCompletion
+2022-06-05 11:53:14.115 -04:00 [ERR] Could not get DLC from SteamDB! Skipping...
+2022-06-05 11:53:14.576 -04:00 [ERR] System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GoldbergGUI.Core.Services.SteamService.GetListOfDlc(SteamApp steamApp, Boolean useSteamDb)
+2022-06-05 11:53:24.150 -04:00 [INF] Generate steam_interfaces.txt...
+2022-06-05 11:53:24.164 -04:00 [DBG] GenerateInterfacesFile C:\Users\ls356\Downloads\Cruelty.Squad-DARKZER0\steam_api64.dll
+2022-06-05 11:53:27.971 -04:00 [INF] Getting achievements for App 1388770=Cruelty Squad
+2022-06-05 11:53:28.534 -04:00 [ERR] MvxAsyncCommand : exception executing task : 
+2022-06-05 11:54:17.718 -04:00 [ERR] Invalid Steam App!
+2022-06-05 11:54:18.830 -04:00 [INF] Initializing download...
+2022-06-05 11:54:19.674 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 11:54:19.684 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 11:54:19.686 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 11:54:19.687 -04:00 [WRN] No DLL selected! Skipping...
+2022-06-05 11:54:20.350 -04:00 [INF] Check if update is needed...
+2022-06-05 11:54:20.358 -04:00 [ERR] An error occured, local Goldberg setup might be broken!
+2022-06-05 11:54:20.360 -04:00 [INF] Starting download...
+2022-06-05 11:54:20.364 -04:00 [DBG] https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/jobs/2547204351/artifacts/download
+2022-06-05 11:54:26.374 -04:00 [INF] Download finished!
+2022-06-05 11:54:26.388 -04:00 [DBG] Start extraction...
+2022-06-05 11:54:28.064 -04:00 [ERR] Error while trying to extract linux/x86/steamclient.so
+2022-06-05 11:54:28.660 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\linux\x86\steamclient.so'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.670 -04:00 [ERR] Error while trying to extract linux/x86_64/libsteam_api.so
+2022-06-05 11:54:28.671 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\linux\x86_64\libsteam_api.so'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.676 -04:00 [ERR] Error while trying to extract linux/x86_64/steamclient.so
+2022-06-05 11:54:28.677 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\linux\x86_64\steamclient.so'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.681 -04:00 [ERR] Error while trying to extract lobby_connect/Readme.txt
+2022-06-05 11:54:28.687 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\lobby_connect\Readme.txt'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.719 -04:00 [ERR] Error while trying to extract lobby_connect/lobby_connect.exe
+2022-06-05 11:54:28.723 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\lobby_connect\lobby_connect.exe'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.739 -04:00 [ERR] Error while trying to extract source_code/source_code.bundle
+2022-06-05 11:54:28.740 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\source_code\source_code.bundle'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.753 -04:00 [ERR] Error while trying to extract steam_api.dll
+2022-06-05 11:54:28.753 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_api.dll'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.759 -04:00 [ERR] Error while trying to extract steam_api64.dll
+2022-06-05 11:54:28.759 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_api64.dll'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.765 -04:00 [ERR] Error while trying to extract steam_interfaces.EXAMPLE.txt
+2022-06-05 11:54:28.765 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_interfaces.EXAMPLE.txt'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.772 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/achievements_EXAMPLE.json
+2022-06-05 11:54:28.773 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\achievements_EXAMPLE.json'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.788 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/button_a.png
+2022-06-05 11:54:28.789 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\button_a.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.791 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/button_b.png
+2022-06-05 11:54:28.792 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\button_b.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.794 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/button_x.png
+2022-06-05 11:54:28.795 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\button_x.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.798 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/button_y.png
+2022-06-05 11:54:28.798 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\button_y.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.801 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/shoulder_l.png
+2022-06-05 11:54:28.801 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\shoulder_l.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.804 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/shoulder_r.png
+2022-06-05 11:54:28.805 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\shoulder_r.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.807 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/stick_dpad_e.png
+2022-06-05 11:54:28.808 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\stick_dpad_e.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.810 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/stick_dpad_n.png
+2022-06-05 11:54:28.811 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\stick_dpad_n.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.813 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/stick_dpad_s.png
+2022-06-05 11:54:28.814 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\stick_dpad_s.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.818 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/stick_dpad_w.png
+2022-06-05 11:54:28.818 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\stick_dpad_w.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.820 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/stick_l_click.png
+2022-06-05 11:54:28.821 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\stick_l_click.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.824 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/stick_l_move.png
+2022-06-05 11:54:28.824 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\stick_l_move.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.827 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/stick_r_click.png
+2022-06-05 11:54:28.827 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\stick_r_click.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.830 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/stick_r_move.png
+2022-06-05 11:54:28.830 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\stick_r_move.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.833 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/trigger_l_click.png
+2022-06-05 11:54:28.833 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\trigger_l_click.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.836 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/trigger_l_pull.png
+2022-06-05 11:54:28.836 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\trigger_l_pull.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.839 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/trigger_r_click.png
+2022-06-05 11:54:28.839 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\trigger_r_click.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.842 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/trigger_r_pull.png
+2022-06-05 11:54:28.843 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\trigger_r_pull.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.845 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/xbox_button_dpad_e.png
+2022-06-05 11:54:28.846 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\xbox_button_dpad_e.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.848 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/xbox_button_dpad_move.png
+2022-06-05 11:54:28.849 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\xbox_button_dpad_move.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.853 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/xbox_button_dpad_n.png
+2022-06-05 11:54:28.854 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\xbox_button_dpad_n.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.857 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/xbox_button_dpad_s.png
+2022-06-05 11:54:28.857 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\xbox_button_dpad_s.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.860 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/xbox_button_dpad_w.png
+2022-06-05 11:54:28.860 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\xbox_button_dpad_w.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.863 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/xbox_button_select.png
+2022-06-05 11:54:28.864 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\xbox_button_select.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:28.867 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/controller.EXAMPLE/glyphs/xbox_button_start.png
+2022-06-05 11:54:28.867 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\controller.EXAMPLE\glyphs\xbox_button_start.png'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:29.003 -04:00 [ERR] Error while trying to extract steam_settings.EXAMPLE/items.EXAMPLE.json
+2022-06-05 11:54:29.007 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\steam_settings.EXAMPLE\items.EXAMPLE.json'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.FlushWriteBuffer(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:29.080 -04:00 [ERR] Error while trying to extract tools/generate_interfaces_file.exe
+2022-06-05 11:54:29.083 -04:00 [ERR] System.IO.IOException: There is not enough space on the disk. : 'C:\Users\ls356\Desktop\CreamAPI,goldbergGUI,andSmartSteamEmu\GoldbergGUI-0.3.0\goldberg\tools\generate_interfaces_file.exe'
+   at System.IO.FileStream.WriteCore(ReadOnlySpan`1 source)
+   at System.IO.FileStream.WriteSpan(ReadOnlySpan`1 source)
+   at System.IO.FileStream.Write(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.CopyToStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Compression.DeflateStream.CopyToStream.CopyFromSourceToDestination()
+   at System.IO.Compression.DeflateStream.CopyTo(Stream destination, Int32 bufferSize)
+   at System.IO.Stream.CopyTo(Stream destination)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at GoldbergGUI.Core.Services.GoldbergService.<>c__DisplayClass22_1.<Extract>b__1()
+2022-06-05 11:54:58.197 -04:00 [WRN] Error occured while extraction! Please setup Goldberg manually
+2022-06-05 11:54:58.198 -04:00 [INF] Extraction was successful!
+2022-06-05 11:54:58.201 -04:00 [INF] Getting global settings...
+2022-06-05 11:54:58.214 -04:00 [INF] Got global settings.
+2022-06-05 11:55:15.039 -04:00 [INF] Reading configuration...
+2022-06-05 11:55:15.040 -04:00 [INF] "steam_appid.txt" missing! Skipping...
+2022-06-05 11:55:15.042 -04:00 [INF] "steam_settings/achievements.json" missing! Skipping...
+2022-06-05 11:55:15.042 -04:00 [INF] "steam_settings/DLC.txt" missing! Skipping...
+2022-06-05 11:55:15.044 -04:00 [ERR] Invalid Steam App!
+2022-06-05 11:55:15.051 -04:00 [DBG] Goldberg applied? False
+2022-06-05 11:55:15.055 -04:00 [ERR] Invalid Steam App!
+2022-06-05 11:55:24.595 -04:00 [INF] Trying to get app cruelty
+2022-06-05 11:55:25.550 -04:00 [INF] Trying to get app with ID 1388770
+2022-06-05 11:55:25.557 -04:00 [INF] Successfully got app 1388770=Cruelty Squad
+2022-06-05 11:55:25.592 -04:00 [INF] Get DLC for App 1388770=Cruelty Squad
+2022-06-05 11:55:26.665 -04:00 [INF] Got DLC successfully...
+2022-06-05 11:55:26.666 -04:00 [DBG] 1540870=Unknown DLC 1540870
+2022-06-05 11:55:26.667 -04:00 [INF] Get SteamDB App 1388770=Cruelty Squad
+2022-06-05 11:55:26.854 -04:00 [DBG] RanToCompletion
+2022-06-05 11:55:26.860 -04:00 [ERR] Could not get DLC from SteamDB! Skipping...
+2022-06-05 11:55:26.870 -04:00 [ERR] System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GoldbergGUI.Core.Services.SteamService.GetListOfDlc(SteamApp steamApp, Boolean useSteamDb)
+2022-06-05 11:55:34.220 -04:00 [INF] Saving global settings...
+2022-06-05 11:55:34.223 -04:00 [INF] Setting global settings...
+2022-06-05 11:55:34.223 -04:00 [INF] Setting account name...
+2022-06-05 11:55:34.231 -04:00 [INF] Setting user Steam ID...
+2022-06-05 11:55:34.232 -04:00 [INF] Setting language...
+2022-06-05 11:55:34.234 -04:00 [INF] Empty list of custom broadcast IPs! Skipping...
+2022-06-05 11:55:34.239 -04:00 [INF] Setting global configuration finished.
+2022-06-05 11:55:34.241 -04:00 [INF] Saving Goldberg settings...
+2022-06-05 11:55:34.740 -04:00 [INF] Saving configuration...
+2022-06-05 11:55:34.741 -04:00 [INF] Running DLL setup...
+2022-06-05 11:55:34.742 -04:00 [INF] Back up original Steam API DLL...
+2022-06-05 11:55:34.745 -04:00 [INF] Copy Goldberg DLL to target path...
+2022-06-05 11:55:34.758 -04:00 [ERR] MvxAsyncCommand : exception executing task : 
